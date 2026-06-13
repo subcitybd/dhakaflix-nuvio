@@ -1,0 +1,20 @@
+{
+  "id": "dhakaflix",
+  "version": "1.0.0",
+  "name": "DhakaFlix",
+  "description": "Bangladeshi streaming add-on",
+  "resources": ["catalog"],
+  "types": ["movie", "series"],
+  "catalogs": [
+    {
+      "type": "movie",
+      "id": "dhakaflix_movies",
+      "name": "DhakaFlix Movies"
+    },
+    {
+      "type": "series",
+      "id": "dhakaflix_series",
+      "name": "DhakaFlix Series"
+    }
+  ]
+}
